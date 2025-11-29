@@ -36,7 +36,10 @@ Build a lightweight system that can analyze a short news post or social media st
 
 ---
 
-## Quick Start
+## Live Demo
+
+Webapp hosted on Hugging Face Spaces: [*Live Demo*](https://huggingface.co/spaces/adi-123/Fact-Checker)
+Explainer video: 
 
 ### 1. Initialize Database
 - Navigate to the **Configuration** tab
@@ -67,6 +70,9 @@ Build a lightweight system that can analyze a short news post or social media st
 ---
 
 ## Architecture
+![Architecture](https://github.com/Aditya-NeuralNetNinja/FactChecker/blob/main/architecture_diagram.svg)
+
+
 
 ### System Pipeline
 
@@ -137,7 +143,7 @@ User Input (Claim)
 **1. Clone and navigate to the project:**
 ```bash
 git clone <repository-url>
-cd rag_interview
+cd FactChecker
 ```
 
 **2. Create a virtual environment (recommended):**
@@ -150,7 +156,6 @@ env\Scripts\activate     # Windows
 **3. Install dependencies:**
 ```bash
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
 ```
 
 **4. Configure API key:**
