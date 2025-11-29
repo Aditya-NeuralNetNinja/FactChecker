@@ -196,9 +196,7 @@ rag_interview/
 ├── app.py                       # Gradio UI application
 ├── utils.py                     # Core RAG pipeline (5 OOP classes)
 ├── requirements.txt             # Python dependencies
-├── setup.sh                     # HuggingFace Spaces setup script
 ├── .env                         # API keys (create this)
-├── fact_checker.log             # Application logs (auto-generated)
 ├── tests/
 │   ├── verified_facts_db.csv   # Verified facts database (30-50 facts)
 │   └── social_media_feed.csv   # Sample claims for testing
