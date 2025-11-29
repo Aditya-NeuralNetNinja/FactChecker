@@ -39,6 +39,7 @@ Build a lightweight system that can analyze a short news post or social media st
 ## Live Demo
 
 Webapp hosted on Hugging Face Spaces: [*Live Demo*](https://huggingface.co/spaces/adi-123/Fact-Checker)
+
 Explainer video: 
 
 ### 1. Initialize Database
@@ -197,6 +198,7 @@ rag_interview/
 ├── requirements.txt             # Python dependencies
 ├── setup.sh                     # HuggingFace Spaces setup script
 ├── .env                         # API keys (create this)
+├── fact_checker.log             # Application logs (auto-generated)
 ├── tests/
 │   ├── verified_facts_db.csv   # Verified facts database (30-50 facts)
 │   └── social_media_feed.csv   # Sample claims for testing
@@ -245,6 +247,14 @@ rag_interview/
 - Each pipeline step is an independent, testable function
 - Error handling at every layer
 
+### Logging & Monitoring
+
+- Comprehensive logging system with file and console output
+- Logs written to `fact_checker.log` for debugging and audit trails
+- Structured logging with timestamps, module names, and severity levels
+- Detailed pipeline tracking: initialization, retrieval, classification, and errors
+- Exception logging with full stack traces for troubleshooting
+
 ### Real-World Practicality
 - Works offline after initial fact database setup (FAISS is local)
 - Handles edge cases: no matches, malformed input, API failures
@@ -270,6 +280,7 @@ rag_interview/
 - Type hints and comprehensive docstrings
 - Separation of concerns (UI vs business logic)
 - Error handling at every layer
+- Comprehensive logging system for debugging and monitoring
 
 ✅ **User Experience**
 - Clean Gradio interface with 3 tabs
