@@ -38,7 +38,7 @@ Build a lightweight system that can analyze a short news post or social media st
 
 ## Live Demo
 
-Webapp hosted on Hugging Face Spaces: [*Live Demo*](https://huggingface.co/spaces/adi-123/Fact-Checker)
+Webapp hosted on Hugging Face Spaces: [*Live Demo*](https://huggingface.co/spaces/adi-123/Fact_Checker)
 
 Explainer video: 
 
