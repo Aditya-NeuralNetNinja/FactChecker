@@ -1,0 +1,9 @@
+gradio>=4.0.0
+together
+langchain-together
+python-dotenv
+langchain
+langchain-community
+faiss-cpu
+spacy>=3.7.0
+pandas>=2.0.0
