@@ -75,7 +75,7 @@ Explainer video:
 ---
 
 ## Architecture
-![Architecture](https://github.com/Aditya-NeuralNetNinja/FactChecker/blob/main/architecture_diagram.svg)
+![Architecture](https://github.com/Aditya-NeuralNetNinja/FactChecker/blob/main/architecture.svg)
 
 
 
