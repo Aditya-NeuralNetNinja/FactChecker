@@ -40,7 +40,7 @@ Build a lightweight system that can analyze a short news post or social media st
 
 Webapp hosted on Hugging Face Spaces: [*Live Demo*](https://huggingface.co/spaces/adi-123/Fact_Checker)
 
-Explainer video: 
+Explainer video: https://youtu.be/JCi2f47yOag?si=4bb5uSTaIEodvR5l
 
 ### 1. Initialize Database
 - Navigate to the **Configuration** tab
